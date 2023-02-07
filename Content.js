@@ -272,8 +272,18 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("DISCORD");
     break;
+  case "open.spotify.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("SPOTIFY");
+    alert("Music is the main cause of PROCRASTINATION!!!⚠️");
+    break;
   case "www.spotify.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("SPOTIFY");
     break;
+  case "www.snapchat.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("SNAPCHAT");
+    break;
+
 }
