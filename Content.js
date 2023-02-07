@@ -276,4 +276,9 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("SPOTIFY");
     break;
+  case "www.snapchat.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("SNAPCHAT");
+    break;
+
 }
